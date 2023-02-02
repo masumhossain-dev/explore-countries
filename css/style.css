@@ -1,0 +1,32 @@
+*{
+   font-family: sans-serif;
+}
+h1{
+   text-align: center;
+   font-weight: 900;
+}
+#countries-container{
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   gap: 30px 15px;
+   text-align: center;
+}
+.country{
+   background-color: aliceblue;
+   border-radius: 10px;
+   border: 2px solid rgb(255, 206, 198);
+   box-shadow: 1px 1px 5px black;
+   padding: 20px;
+}
+#country-detail{
+   width: 320px;
+   height: 320px;
+   overflow: hidden;
+   text-align: center;
+   margin: 0 auto;
+   padding-bottom:150px;
+}
+#country-detail p{
+   margin: 0;
+   padding: 1px;
+}
